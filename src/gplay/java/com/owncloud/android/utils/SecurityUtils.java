@@ -31,11 +31,11 @@ public class SecurityUtils implements ProviderInstaller.ProviderInstallListener 
 
     @Override
     public void onProviderInstalled() {
-
+        // Does nothing
     }
 
     @Override
     public void onProviderInstallFailed(int i, Intent intent) {
-
+        // Does nothing
     }
 }
